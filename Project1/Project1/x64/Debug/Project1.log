@@ -1,0 +1,13 @@
+﻿  Project1.cpp
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(16): error C2039: 'chrono': is not a member of 'std'
+  c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\predefined c++ types (compiler internal)(239): note: see declaration of 'std'
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(16): error C2871: 'chrono': a namespace with this name does not exist
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(27): error C2065: 'ofstream': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(27): error C2146: syntax error: missing ';' before identifier 'odata'
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(27): error C2065: 'odata': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(28): error C2065: 'odata': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(28): error C2228: left of '.open' must have class/struct/union
+  c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(28): note: type is 'unknown-type'
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(36): error C2065: 'odata': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(36): error C2228: left of '.close' must have class/struct/union
+  c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(36): note: type is 'unknown-type'
