@@ -1,3 +1,8 @@
-﻿  Project1.cpp
-c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\project1.cpp(48): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Project1.vcxproj -> C:\Users\danbb\OneDrive - Fresno State\School\115\AlgorithmBenchmarks\Project1\x64\Debug\Project1.exe
+﻿  stdafx.cpp
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(7): error C2065: 'vector': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(7): error C2062: type 'double' unexpected
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(9): error C2065: 'vector': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(9): error C2062: type 'double' unexpected
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(11): error C2065: 'vector': undeclared identifier
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(11): error C2062: type 'double' unexpected
+c:\users\danbb\onedrive - fresno state\school\115\algorithmbenchmarks\project1\project1\helper.h(13): error C2061: syntax error: identifier 'string'

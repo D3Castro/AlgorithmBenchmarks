@@ -28,38 +28,6 @@ void Array::displayArray()
 	cout << "]";
 }
 
-void Array::addToTop(int value)
-{
-	sizeOfArry = sizeOfArry + 1;
-	// with allocate memory
-	arrData =
-		(int*)realloc(arrData, sizeof(int)*sizeOfArry);
-	for (int i = sizeOfArry - 1; i>0; i--)
-		arrData[i] = arrData[i - 1];
-	arrData[0] = value;
-}
-
-void Array::addToEnd(int value)
-{
-	sizeOfArry = sizeOfArry + 1;
-	// with allocate memory
-	arrData =
-		(int*)realloc(arrData, sizeof(int)*sizeOfArry);
-	arrData[sizeOfArry - 1] = value;
-}
-
-void Array::removeFromTop()
-{
-	for (int i = 0; i<sizeOfArry; i++)
-		arrData[i] = arrData[i + 1];
-	arrData[sizeOfArry - 1] = NULL;
-}
-
-void Array::removeFromBottom()
-{
-	arrData[sizeOfArry - 1] = NULL;
-}
-
 void Array::reverseArray()
 {
 	int temp;
@@ -94,17 +62,16 @@ void Array::randFill()
 	}
 }
 
-//May be incorrect implimentation 
 void Array::partialRFill()
 {
 	int swapI, temp;
-	int shuffleR = int(sizeOfArry * .1);
-	while (shuffleR >= 0) {
+	int toShuffle = int(sizeOfArry * .1);
+	while (toShuffle >= 0) {
 		swapI = rand() % sizeOfArry;
-		temp = arrData[shuffleR];
-		arrData[shuffleR] = arrData[swapI];
+		temp = arrData[toShuffle];
+		arrData[toShuffle] = arrData[swapI];
 		arrData[swapI] = temp;
-		shuffleR--;
+		toShuffle--;
 	}
 
 }

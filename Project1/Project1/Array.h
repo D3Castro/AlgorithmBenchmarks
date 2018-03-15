@@ -9,10 +9,6 @@ public:
 
 	int getSize(); //Function to access the size
 	void displayArray(); //Display the content of the array
-	void addToTop(int); //Function to Add an element at the beginning
-	void addToEnd(int); //Function to Add an element at the end
-	void removeFromTop(); //Function to Remove an element at the beginning
-	void removeFromBottom(); //Function to Remove an element at the end
 	void reverseArray(); //Function to Inverse the order of the elements in the array
 	void swapElements(int, int); //Swap two elements in the array
 
@@ -21,17 +17,11 @@ public:
 	void partialRFill(); //Fill the array partially shuffled 10%
 
 	void BubbleSort();
-
 	void InsertionSort();
-
 	void SelectionSort();
-
 	void MergeSort(int low, int high);
-
 	void Merge(int low, int mid, int high);
-
 	void QuickSort(int low, int high);
-
 	int partition(int low, int high);
 
 	int sizeOfArry; //Array size
