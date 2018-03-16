@@ -65,12 +65,10 @@ void Array::randFill()
 void Array::partialRFill()
 {
 	int swapI, temp;
-	int toShuffle = int(sizeOfArry * .1);
+	int toShuffle = int(sizeOfArry * .1);		//Get upper index for first 10% of the array
 	while (toShuffle >= 0) {
-		swapI = rand() % sizeOfArry;
-		temp = arrData[toShuffle];
-		arrData[toShuffle] = arrData[swapI];
-		arrData[swapI] = temp;
+		swapI = rand() % sizeOfArry;			//Get a random index to swap
+		this->swapElements(toShuffle, swapI);
 		toShuffle--;
 	}
 

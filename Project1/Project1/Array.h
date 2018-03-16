@@ -7,14 +7,30 @@ public:
 	Array(int); //Copy Constructor with size
 	~Array(); //Destructor for the class
 
-	int getSize(); //Function to access the size
-	void displayArray(); //Display the content of the array
-	void reverseArray(); //Function to Inverse the order of the elements in the array
+	//	Returns the size of the array. (sizeOfArry)
+	int getSize(); 
+
+	//	Displays the content of the array. [0,1,2,3...n]
+	void displayArray();
+
+	//	Inverse the order of the array.
+	void reverseArray(); 
+
+	/**
+		Swaps two elements in the array.
+
+		@param int The location of the variable in the array
+	*/
 	void swapElements(int, int); //Swap two elements in the array
 
-	void sortedFill(); //Fill the array with sorted values
-	void randFill(); //Fill the array with random values
-	void partialRFill(); //Fill the array partially shuffled 10%
+	//	Fill the array with values sorted in order.
+	void sortedFill(); 
+
+	//	Fill the array with random values.
+	void randFill(); 
+
+	//	Fill the array with sorted values then shuffle it 10%.
+	void partialRFill(); 
 
 	void BubbleSort();
 	void InsertionSort();
